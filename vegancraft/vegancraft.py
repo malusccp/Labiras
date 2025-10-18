@@ -65,7 +65,7 @@ menu_arte = """
 
 '                                                           '
 '              //                           \\              '
-'                  V E G A N C R A F T                      '
+'                   V E G A N C R A F T                      '
 '              \\                           //              '
 '                  O Atelie da Natureza                     '
 '                                                           '

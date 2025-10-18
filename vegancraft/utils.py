@@ -23,7 +23,7 @@ def choose_level(label: str):
 
     while True:
         numero = get_integer_number(label)
-        if 1 <= numero <= 3:
+        if 1 <= numero <= 4:
             return numero
 
         print(f"Comando inválido! ")
