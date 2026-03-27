@@ -1,0 +1,27 @@
+{
+  "defaultEnv": "development",
+  "development": {
+    "host": {
+      "env": "HOST",
+      "default": "localhost"
+    },
+    "port": {
+      "env": "PORT",
+      "default": 5432
+    },
+    "database": {
+      "env": "DATABASE",
+      "default": "react-ros-ui"
+    },
+    "user": {
+      "env": "DATABASE_USER",
+      "default": "postgres"
+    },
+    "password": {
+      "env": "PASSWORD",
+      "default": "postgres"
+    },
+    "migrationsDirectory": "migrations"
+  }
+}
+
