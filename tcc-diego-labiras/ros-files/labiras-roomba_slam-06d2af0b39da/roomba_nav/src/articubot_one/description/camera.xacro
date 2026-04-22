@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="materials_macros.xacro" />
+
+    <!-- Aqui é criada a junta da câmera -->
+    <joint name="camera_joint" type="fixed">
+        <parent link="chassis" />
+        <child link="camera_link" />
+        <origin xyz="0.345 0.0 0.0375" rpy="0.0 0.0 0.0" />
+    </joint>
+
+    <!-- Aqui é criado o link da câmera no simulado -->
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <box size="0.010 0.03 0.03"/>
+            </geometry>
+            <xacro:material_orange />
+        </visual>
+    </link>
+
+    <!-- Aqui é criada a junta da visão óptica da câmera -->
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="camera_link"/>
+        <child link="camera_link_optical"/>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}" />
+    </joint>
+
+    <!-- Aqui é criado o link para a visão óptica da câmera-->
+    <link name="camera_link_optical">
+
+    </link>
+
+    <xacro:gazebo_material_orange reference="camera_link" />
+
+    <gazebo reference="camera_link">
+        <!-- A câmera é um sensor para o Gazebo e para o ROS-->
+        <sensor name="camera" type="camera">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <!-- Aqui começa a criação da câmera -->
+            <camera>
+                <!-- Aqui é o campo de visão horizontal em radianos -->
+                <!-- Isso daqui mostra o quanto ampliada ou reduzida a imagem será-->
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <!-- Isso aqui significa 8 bits para as cores vermelho, verde e azul-->
+                    <format>R8G8B8</format>
+                    <!-- O tamanho e a altura da imagem-->
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+                <clip>
+                    <!-- Aqui cria o limite de visão que a câmera pode ver -->
+                    <near>0.05</near> <!-- A menor distância para detecção é 50 mm-->
+                    <far>8.0</far>  <!-- A maior distância para detecção é 8 m-->
+                </clip>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+
+</robot>

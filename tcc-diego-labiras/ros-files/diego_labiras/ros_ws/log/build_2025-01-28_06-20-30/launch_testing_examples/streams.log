@@ -1,0 +1,50 @@
+[5.475s] Invoking command in '/home/diego/Documents/diego_labiras/ros_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build install --record /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data
+[7.004s] running egg_info
+[7.004s] creating ../../../../build/launch_testing_examples/launch_testing_examples.egg-info
+[7.106s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[7.107s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[7.111s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[7.111s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[7.112s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[7.317s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[7.319s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[7.320s] running build
+[7.320s] running build_py
+[7.320s] creating /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build
+[7.320s] creating /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib
+[7.321s] creating /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[7.321s] copying launch_testing_examples/__init__.py -> /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[7.321s] copying launch_testing_examples/hello_world_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[7.322s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[7.322s] copying launch_testing_examples/set_param_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[7.322s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[7.322s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[7.323s] copying launch_testing_examples/check_node_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[7.326s] running install
+[7.353s] running install_lib
+[7.462s] creating /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[7.462s] copying /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples/__init__.py -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[7.463s] copying /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples/hello_world_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[7.463s] copying /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[7.464s] copying /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples/set_param_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[7.465s] copying /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_msgs_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[7.466s] copying /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples/record_rosbag_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[7.466s] copying /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_node_launch_test.py -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[7.471s] byte-compiling /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/__init__.py to __init__.cpython-310.pyc
+[7.472s] byte-compiling /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/hello_world_launch_test.py to hello_world_launch_test.cpython-310.pyc
+[7.474s] byte-compiling /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-310.pyc
+[7.475s] byte-compiling /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/set_param_launch_test.py to set_param_launch_test.cpython-310.pyc
+[7.477s] byte-compiling /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_msgs_launch_test.py to check_msgs_launch_test.cpython-310.pyc
+[7.480s] byte-compiling /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-310.pyc
+[7.481s] byte-compiling /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_node_launch_test.py to check_node_launch_test.cpython-310.pyc
+[7.481s] running install_data
+[7.481s] creating /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/share/ament_index
+[7.481s] creating /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/share/ament_index/resource_index
+[7.482s] creating /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[7.482s] copying resource/launch_testing_examples -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[7.482s] copying package.xml -> /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/share/launch_testing_examples
+[7.482s] running install_egg_info
+[7.645s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.1-py3.10.egg-info
+[7.647s] running install_scripts
+[8.390s] writing list of installed files to '/home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/install.log'
+[8.540s] Invoked command in '/home/diego/Documents/diego_labiras/ros_ws/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/Documents/diego_labiras/ros_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/build install --record /home/diego/Documents/diego_labiras/ros_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data

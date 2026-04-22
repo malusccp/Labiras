@@ -1,0 +1,10 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_write_generator_arguments.cmake:44 (message):
+  rosidl_write_generator_arguments() called with unused arguments:
+  INCLUDE_PATHS
+Call Stack (most recent call first):
+  /opt/ros/iron/share/rosidl_generator_type_description/cmake/rosidl_generator_type_description_generate_interfaces.cmake:57 (rosidl_write_generator_arguments)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:18 (rosidl_generate_interfaces)
+
+[0m

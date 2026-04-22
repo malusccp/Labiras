@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000759] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001002] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001257] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001325] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001381] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001437] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001492] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001546] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001599] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001653] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001707] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001765] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001816] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001866] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001975] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002026] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002053] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002102] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002130] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002156] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002194] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002287] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002333] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002389] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002432] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.014332] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.015467] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/diego/Documents/diego_labiras/ros_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/diego/Documents/diego_labiras/ros_ws/install/tutorial_interfaces'], 'cwd': '/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('LC_TIME', 'pt_BR.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/diego'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/diego/Documents/diego_labiras'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/diego/.nvm/versions/node/v16.20.2/bin'), ('NVM_INC', '/home/diego/.nvm/versions/node/v16.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1536'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4507'), ('NVM_DIR', '/home/diego/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'diego'), ('JOURNAL_STREAM', '8:30328'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'diego'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/home/diego/.nvm/versions/node/v16.20.2/bin:/usr/local/cuda/bin:/opt/ros/iron/bin:/home/diego/.cargo/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/diego/.local/bin:/home/diego/.local/bin:/home/diego/.local/bin'), ('SESSION_MANAGER', 'local/diego-300E5K-300E5Q:@/tmp/.ICE-unix/1669,unix/diego-300E5K-300E5Q:/tmp/.ICE-unix/1669'), ('INVOCATION_ID', '8d8e21c0dcd54e5ab531bffc60829c4f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/32fdf0bf_f6ee_4fc4_a591_f255c986d816'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7KU8O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8e95f667e3.sock'), ('GNOME_TERMINAL_SERVICE', ':1.774'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/opt/ros/iron')]), 'shell': False}
+[0.038147] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099837] (-) TimerEvent: {}
+[0.200139] (-) TimerEvent: {}
+[0.221206] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.260864] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.265407] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.275040] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.294885] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300259] (-) TimerEvent: {}
+[0.323036] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400431] (-) TimerEvent: {}
+[0.491983] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500506] (-) TimerEvent: {}
+[0.600868] (-) TimerEvent: {}
+[0.701227] (-) TimerEvent: {}
+[0.801596] (-) TimerEvent: {}
+[0.901988] (-) TimerEvent: {}
+[0.934957] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.002086] (-) TimerEvent: {}
+[1.102379] (-) TimerEvent: {}
+[1.202698] (-) TimerEvent: {}
+[1.303056] (-) TimerEvent: {}
+[1.403385] (-) TimerEvent: {}
+[1.503784] (-) TimerEvent: {}
+[1.599006] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603887] (-) TimerEvent: {}
+[1.704237] (-) TimerEvent: {}
+[1.804604] (-) TimerEvent: {}
+[1.874346] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.904728] (-) TimerEvent: {}
+[1.908317] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.951377] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.951902] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.952205] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.004841] (-) TimerEvent: {}
+[2.105214] (-) TimerEvent: {}
+[2.112232] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_write_generator_arguments.cmake:44 (message):\n'}
+[2.112587] (tutorial_interfaces) StderrLine: {'line': b'  rosidl_write_generator_arguments() called with unused arguments:\n'}
+[2.112769] (tutorial_interfaces) StderrLine: {'line': b'  INCLUDE_PATHS;geometry_msgs:/opt/ros/humble/share/geometry_msgs;std_msgs:/opt/ros/humble/share/std_msgs\n'}
+[2.112929] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.113079] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_generator_type_description/cmake/rosidl_generator_type_description_generate_interfaces.cmake:57 (rosidl_write_generator_arguments)\n'}
+[2.113234] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.113399] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.113559] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:18 (rosidl_generate_interfaces)\n'}
+[2.113725] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[2.113909] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.114211] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.114402] (tutorial_interfaces) StdoutLine: {'line': b'See also "/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.129512] (tutorial_interfaces) CommandEnded: {'returncode': 1}
+[2.161943] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[2.172600] (-) EventReactorShutdown: {}

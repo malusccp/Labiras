@@ -1,0 +1,8 @@
+[0.024s] Invoking command in '/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/iron /usr/bin/cmake /home/diego/Documents/diego_labiras/ros_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/diego/Documents/diego_labiras/ros_ws/install/tutorial_interfaces
+[0.039s] [31mCMake Error at CMakeLists.txt:10:
+[0.039s]   Parse error.  Expected a command name, got unquoted argument with text "]".
+[0.040s] 
+[0.040s] [0m
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.042s] Invoked command in '/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/iron /usr/bin/cmake /home/diego/Documents/diego_labiras/ros_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/diego/Documents/diego_labiras/ros_ws/install/tutorial_interfaces
