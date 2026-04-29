@@ -1,6 +1,0 @@
-[31mCMake Error at CMakeLists.txt:10:
-  Parse error.  Expected a command name, got unquoted argument with text "]".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".

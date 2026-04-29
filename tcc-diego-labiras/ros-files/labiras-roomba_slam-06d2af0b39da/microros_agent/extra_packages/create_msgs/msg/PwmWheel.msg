@@ -1,2 +1,0 @@
-int16 pwm_left_wheel
-int16 pwm_right_wheel

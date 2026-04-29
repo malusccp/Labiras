@@ -1,9 +1,0 @@
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/uninstall.dir
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces_uninstall.dir
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/test.dir
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/edit_cache.dir
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/rebuild_cache.dir
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/list_install_components.dir
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/install.dir
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/install/local.dir
-/home/diego/Documents/diego_labiras/ros_ws/build/tutorial_interfaces/CMakeFiles/install/strip.dir
